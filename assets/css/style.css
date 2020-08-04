@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&display=swap");
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 /*-------------------------------------------------------- Background colors */
 
 .menu-bar {
@@ -14,6 +21,11 @@
     text-transform: uppercase;
     font-family: "Delius Swash Caps", sans-serif;
     letter-spacing: 1px;
+}
+
+.nav-link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
 }
 
 .sub-heading {
@@ -33,10 +45,26 @@ footer span {
     font-size: 14px;
 }
 
+.hero-text h1 {
+    font-family: "Delius Swash Caps", sans-serif;
+    color: white;
+    font-size: 45px;
+}
+
+.hero-text p {
+    font-family: "Open", sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
 /*-------------------------------------------------------- Navbar */
 
 .menu-bar {
     color: dimgrey;
+}
+
+.nav-link:hover {
+    color: black !important;
 }
 
 /*-------------------------------------------------------- Footer */
@@ -60,8 +88,22 @@ footer {
     margin-bottom: 1rem;
 }
 
-.nav-link:hover {
-    color: black !important;
+/*-------------------------------------------------------- Banner Image Section*/
+
+.hero-image {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/heroimage.jpg");
+ width: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 80vh;
 }
 
+.hero-text {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding-top: 250px;
+}
 
