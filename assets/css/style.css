@@ -13,6 +13,10 @@ body {
     background-color: #FECCC2;
 }
 
+.classes-feature {
+    background-color: #f2f0f1;
+}
+
 
 /*-------------------------------------------------------- Font & font styles */
 
@@ -48,14 +52,30 @@ footer span {
 .hero-text h1 {
     font-family: "Delius Swash Caps", sans-serif;
     color: white;
-    font-size: 45px;
 }
 
 .hero-text p {
     font-family: "Open", sans-serif;
     color: white;
-    font-size: 16px;
+    font-size: 25px;
 }
+
+.section-heading {
+    font-family: "Delius Swash Caps", sans-serif;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.content-heading{
+    font-family: "Open Sans", sans-serif;
+    color: darkgrey;
+    font-size: 25px;
+}
+
+/*-------------------------------------------------------- Button styles */
+
+
 
 /*-------------------------------------------------------- Navbar */
 
@@ -74,7 +94,8 @@ footer {
     color: dimgrey;
     min-height: 120px;
     margin: 0;
-    padding-top: 5px;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 .social-icons a i{
@@ -107,3 +128,39 @@ footer {
     padding-top: 250px;
 }
 
+/*-------------------------------------------------------- Benefits of learning Macrame section*/
+
+#benefits-feature {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*-------------------------------------------------------- Upcoming online classes preview on homepage */
+
+.classes-feature {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+#upcoming-classes-feature {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*-------------------------------------------------------- Upcoming online classes preview on homepage */
+
+.gallery-feature {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.gallery-item {
+width: 286px;
+padding: 5px;
+margin: 30px;
+}
