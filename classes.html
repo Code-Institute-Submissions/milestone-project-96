@@ -55,7 +55,7 @@
     </div>
     <div class="row">
         <div class="col">
-            <p class="text-center"><a class="btn btn-secondary" href="#" role="button">Enquire</a></p>
+            <p class="text-center"><a class="btn btn-secondary" href="#enquiry-form" role="button">Contact Us</a></p>
         </div>
     </div> 
 </section>
@@ -108,7 +108,13 @@
 </div>
 
  <!--Form to enquire about classes:-->
- <div class="container">
+<section class="container-fluid" id="enquiry-form">
+     <div class="row">
+        <div class="col">
+            <h2 class="section-heading text-center">Enquire Today</h2>
+            <p class="text-center">Contact us to check availability for upcoming classes</p>
+        </div>
+    </div>
     <div class="row">
         <div class="col">
             <form class="form-style mx-auto">
@@ -128,18 +134,36 @@
                                 <option>Wall Hanging</option>
                                 <option>Market Bag</option>
                             </select>
-                    <div class="form-group">
+                    </div>
+                    <div class="row form-group">
                             <label for="message">Message:</label>
                             <textarea class="form-control" id="message" rows="3"></textarea>
                     </div>
-                    </div>
                     <div class="text-center">
-                            <button type="submit" class="btn btn-secondary btn-lg">Send Enquiry</button>
+                            <button type="submit" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#exampleModal">Send Enquiry</button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Thanks for your enquiry!</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body text-left">
+                                    We will be in touch by e-mail soon
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
             </form>
         </div>
     </div> 
- </div>
+ </section>
  
 
 
