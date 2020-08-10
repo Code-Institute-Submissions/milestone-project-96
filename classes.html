@@ -108,6 +108,7 @@
 </div>
 
  <!--Form to enquire about classes:-->
+ <!--Code for form and modal taken from Bootstrap:-->
 <section class="container-fluid" id="enquiry-form">
      <div class="row">
         <div class="col">
@@ -120,15 +121,15 @@
             <form class="form-style mx-auto">
                     <div class="row form-group">
                         <label for="fullname">Name</label>
-                        <input type="text" class="form-control" placeholder="Please enter full name" id="fullname">
+                        <input type="text" class="form-control" placeholder="Please enter full name" id="fullname" required>
                     </div>
                     <div class="row form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" placeholder="name@example.com" id="email">
+                        <input type="email" class="form-control" placeholder="name@example.com" id="email" required>
                     </div>
                     <div class="row form-group">
                         <label for="classselection">Please select the class you'd like to enquire about:</label>
-                            <select class="form-control" id="classselection">
+                            <select class="form-control" id="classselection" required>
                                 <option>Plant Hanger</option>
                                 <option>Macrame Rainbow</option>
                                 <option>Wall Hanging</option>
@@ -164,11 +165,7 @@
         </div>
     </div> 
  </section>
- 
-
-
-
-    <footer class="container-fluid">
+  <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
                 <h5 class="sub-heading">About Us:</h5>

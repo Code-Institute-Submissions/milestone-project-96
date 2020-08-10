@@ -21,6 +21,14 @@ body {
     background-color: #f2f0f1;
 }
 
+#enquiry-form {
+    background-color: #f2f0f1;
+}
+
+.image-gallery {
+    background-color: #f2f0f1;
+}
+
 
 /*-------------------------------------------------------- Font & font styles */
 
@@ -71,7 +79,7 @@ footer span {
     padding-top: 20px;
 }
 
-.section-heading {
+.section-heading-classes {
     font-family: "Open Sans", sans-serif;
     color: black;
     padding-bottom: 20px;
@@ -109,6 +117,7 @@ footer span {
 
 .menu-bar {
     color: dimgrey;
+    padding: 5px 10px;
 }
 
 .nav-link:hover {
@@ -193,7 +202,7 @@ padding: 5px;
 margin: 30px;
 }
 
-/*-------------------------------------------------------- Classes page */
+/*-------------------------------------------------------- Online classes section */
 /*Used https://stackoverflow.com/questions/47606246/center-positioning-text-in-hero-div for header code */
 
 .header-image {
@@ -202,24 +211,27 @@ margin: 30px;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
- height: 400px;
+ height: 50vh;
  position:relative;
  }
 
 
 #upcoming-classes-intro {
     padding-top: 50px;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 
+#classes-list {
+    padding: 20px 25px;
+}
 .class-item {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 hr{
-  border-top: 1px solid #777777;
-  width: 25%;
+  border-top: 3px solid #FECCC2;
+  width: 30%;
   margin: 0, auto;
 }
 
@@ -234,4 +246,86 @@ hr{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+/*-------------------------------------------------------- Class enquiry section */
+
+.form-style {
+    width: 400px;
+    padding: 15px;
+}
+
+#enquiry-form {
+    padding: 20px 10px;
+}
+
+/*-------------------------------------------------------- Gallery feature first attempt */
+
+
+.carousel-inner {
+    padding: 30px;
+    margin: auto;
+}
+
+/*-------------------------------------------------------- Gallery feature second attempt */
+
+.gallery-intro {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image-gallery {
+    padding: 10px;
+}
+
+.image-gallery-row {
+    margin: 20px;
 }
