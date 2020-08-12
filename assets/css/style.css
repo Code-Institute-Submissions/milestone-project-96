@@ -13,8 +13,12 @@ body {
     background-color: #FECCC2;
 }
 
-.classes-feature {
+.grey-section {
     background-color: #f2f0f1;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 #upcoming-classes-intro {
@@ -29,6 +33,30 @@ body {
     background-color: #f2f0f1;
 }
 
+/*-------------------------------------------------------- Sections and heading styles */
+
+.section-heading {
+    font-family: "Delius Swash Caps", sans-serif;
+    color: black;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.content-heading{
+    font-family: "Open Sans", sans-serif;
+    color: darkgrey;
+    font-size: 25px;
+}
+
+.white-section {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.grey-section {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
 
 /*-------------------------------------------------------- Font & font styles */
 
@@ -37,6 +65,12 @@ body {
     text-transform: uppercase;
     font-family: "Delius Swash Caps", sans-serif;
     letter-spacing: 1px;
+}
+
+@media screen and (max-width: 540px) {
+    .navbar-brand {
+        font-size: 25px;
+    }
 }
 
 .nav-link {
@@ -66,18 +100,23 @@ footer span {
     color: white;
 }
 
+@media screen and (max-width: 540px) {
+    .hero-text h1 {
+        font-size: 30px;
+    }
+}
 .hero-text p {
     font-family: "Open", sans-serif;
     color: white;
     font-size: 25px;
 }
 
-.section-heading {
-    font-family: "Delius Swash Caps", sans-serif;
-    color: black;
-    padding-bottom: 20px;
-    padding-top: 20px;
+@media screen and (max-width: 540px) {
+    .hero-text p {
+        font-size: 20px;
+    }
 }
+
 
 .section-heading-classes {
     font-family: "Open Sans", sans-serif;
@@ -86,15 +125,15 @@ footer span {
     padding-top: 20px;
 }
 
-.content-heading{
-    font-family: "Open Sans", sans-serif;
-    color: darkgrey;
-    font-size: 25px;
-}
-
 .header-text h1 {
     font-family: "Delius Swash Caps", sans-serif;
     color: white;
+}
+
+@media screen and (max-width: 540px) {
+    .header-text h1 {
+        font-size: 30px;
+    }
 }
 
 .header-text p {
@@ -146,7 +185,7 @@ footer {
     margin-bottom: 1rem;
 }
 
-/*-------------------------------------------------------- Hero Image Section*/
+/*-------------------------------------------------------- Hero Image*/
 
 .hero-image {
  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/heroimage.jpg");
@@ -165,19 +204,22 @@ footer {
     padding-top: 250px;
 }
 
+@media screen and (max-width: 540px) {
+    .hero-text h1 {
+        padding-top: 0px;
+    }
+} 
+
 /*-------------------------------------------------------- Benefits of learning Macrame section*/
 
-#benefits-feature {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.benefits {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*-------------------------------------------------------- Upcoming online classes preview on homepage */
 
-.classes-feature {
-    padding-top: 50px;
-    padding-bottom: 90px;
-}
+
 
 #upcoming-classes-feature {
     padding-top: 50px;
@@ -189,24 +231,17 @@ footer {
     margin-bottom: 50px;
 }
 
-/*-------------------------------------------------------- Upcoming online classes preview on homepage */
-
-.gallery-feature {
-    padding-top: 50px;
-    padding-bottom: 90px;
-}
-
 .gallery-item {
 width: 286px;
-padding: 5px;
-margin: 30px;
+padding-right: 15px;
+margin: 15px;
 }
 
-/*-------------------------------------------------------- Online classes section */
+/*-------------------------------------------------------- Online classes page */
 /*Used https://stackoverflow.com/questions/47606246/center-positioning-text-in-hero-div for header code */
 
 .header-image {
- background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.25)), url("../images/gallery1.png");
+ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.25)), url("../images/classesheaderimage.jpg");
  width: 100%;
  background-position: center;
  background-repeat: no-repeat;
@@ -224,15 +259,17 @@ margin: 30px;
 #classes-list {
     padding: 20px 25px;
 }
-.class-item {
+.class-image {
     padding-top: 20px;
     padding-bottom: 20px;
+
 }
 
 hr{
   border-top: 3px solid #FECCC2;
   width: 30%;
   margin: 0, auto;
+  padding: 20px;
 }
 
 .class {
@@ -260,13 +297,20 @@ hr{
     padding: 20px 10px;
 }
 
-/*-------------------------------------------------------- Gallery feature first attempt */
+@media screen and (max-width: 540px) {
+    .form-style {
+        width: 300px;
+    }
+}
+/*-------------------------------------------------------- Gallery feature first attempt
 
 
 .carousel-inner {
     padding: 30px;
     margin: auto;
 }
+
+ */
 
 /*-------------------------------------------------------- Gallery feature second attempt */
 
@@ -328,4 +372,11 @@ div.desc {
 
 .image-gallery-row {
     margin: 20px;
+}
+
+
+/*-------------------------------------------------------- Contact */
+
+.contact-form {
+    padding: 20px 10px;
 }
