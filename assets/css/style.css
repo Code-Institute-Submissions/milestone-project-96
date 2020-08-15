@@ -68,11 +68,13 @@ body {
     text-transform: uppercase;
     font-family: "Delius Swash Caps", sans-serif;
     letter-spacing: 1px;
+    padding-left: 10px;
 }
 
 @media screen and (max-width: 540px) {
     .navbar-brand {
         font-size: 25px;
+        padding-left: 5px;
     }
 }
 
@@ -88,7 +90,7 @@ body {
 
 footer p {
     font-family: "Open Sans", sans-serif;
-    color: black;
+    color: dark-grey;
     font-size: 14px;
 }
 
@@ -128,6 +130,11 @@ footer span {
     padding-top: 20px;
 }
 
+@media screen and (max-width: 540px) {
+    .section-heading-classes {
+   font-size: 25px;
+    }
+}
 .header-text h1 {
     font-family: "Delius Swash Caps", sans-serif;
     color: white;
@@ -140,15 +147,20 @@ footer span {
 }
 
 .header-text p {
-    font-family: "Open", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: white;
     font-size: 25px;
 }
 
-.class h4{
-    font-family: "Delius Swash Caps", sans-serif;
+.class h3 {
+    font-family:"Delius Swash Caps", sans-serif;
+    }
+}
+.class h4 {
+    font-family: "Open Sans", sans-serif;
     color: slategrey;
-    font-size: 20px;
+    text-transform: bold;
+    font-size: 10px;
 }
 
 /*-------------------------------------------------------- Button styles */
@@ -199,16 +211,20 @@ footer span {
   padding-left: 15px;
 }*/
 
-.social-icons a i{
-    color: black;
+.social-icons i{
     padding: 10px;
 }
 
-.contact i {
-    color: black;
+#sticky-footer p{
 
 }
+#sticky-footer a{
+    color: dimgrey;
+}
 
+#sticky-footer a:hover{
+color: black;
+}
 /*-------------------------------------------------------- Hero Image*/
 
 .hero-image {
@@ -315,7 +331,7 @@ hr{
 /*-------------------------------------------------------- Class enquiry section */
 
 .form-style {
-    width: 400px;
+    width: 600px;
     padding: 15px;
 }
 
@@ -340,12 +356,31 @@ hr{
 
 /*-------------------------------------------------------- Gallery feature second attempt */
 
+.gallery-header-image {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.25)), url("../images/galleryheaderimage.jpg");
+ width: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 50vh;
+ position:relative;
+ }
+
 .gallery-intro {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+.gallery-intro a{
+    color: darkgrey;
+}
+
+.gallery-intro a:hover{
+    color:black;
+}
+
 div.gallery {
+  background-color: white;
   border: 1px solid #ccc;
 }
 
@@ -393,7 +428,8 @@ div.desc {
 }
 
 .image-gallery {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 .image-gallery-row {
@@ -403,6 +439,16 @@ div.desc {
 
 /*-------------------------------------------------------- Contact */
 
+
+.contact-header-image {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.20)), url("../images/gallery10.jpg");
+ width: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 50vh;
+ position:relative;
+ }
 .contact-form {
     padding: 20px 10px;
 }
