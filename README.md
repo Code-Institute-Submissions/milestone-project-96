@@ -1,8 +1,225 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Fray + Anchor Macrame
 
-Welcome chloelewisdev,
+## Code Institute - Milestone Project 1
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+
+<img src="assets/images/mockupscreenshot.png" style="margin: 0;">
+Fray + Anchor is a fictional company which provides online macramé classes. The idea came to me as I have personally done a lot of macramé and have often thought it would be great to be able to ask a teacher about a specific technique or to be guided through a project whilst at home, rather than using YouTube videos or PDF patterns. I thought this service would be useful to others too in the same position, who want to take up macramé as a hobby but don’t have the time to teach themselves and aren’t able to make a class in person. 
+
+This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute, and the main requirements were to make a responsive and static website with a minimum of 3 pages using HTML5 and CSS3. 
+ 
+Click here to view the website live. 
+
+## **User Experience**
+This section provides insight into the UX process, focusing on who the Fray + Anchor website is for, the main aims of the project and how the website can help users meet their needs.  
+
+### Project goals:
+* To get people to enquire about upcoming macrame classes
+* To learn about the benefits of macrame as a hobby
+* To be able to easily contact Fray + Anchor with any questions
+* To present information about the online macrame classes so that people understand easily what is available – times, price and what is included. 
+* To create a website that is visually appealing, and fully responsive on all devices and screen sizes. 
+* To make Fray + Anchor seem a reputable class provider, by creating a professional website
+
+### User Stories
+
+**New users:** 
+* I am a user who is new to macramé - I need to be convinced why it would be a good craft to learn, and I also want to learn what is involved in a class – the price, the time and the result.  If I decide I am interested I want to be able to easily enquire on the website about a class. 
+* I am a user who has learned some macramé already but am now ready to take on a more difficult project and want a teacher to guide me through this online – I want to view the classes available and find one suited to my level. I want to make sure that a teacher would be available to help me with more advanced techniques. 
+* I want to take an online macramé class, but I want to do a different project to the ones advertised on the website. I want to be able to contact the company to find out if they would consider teaching a different project and how much this would be. 
+
+**Returning user:**
+* I am a returning user who has already done one class, I loved it and want my work to feature on the image gallery. I therefore want to visit the site to learn what I need to do to feature on the image gallery on the website. I am also considering doing another class because I loved the first one so much, I want to view the classes available along with their suitability levels, and also learn if there is any discount for returning students. 
+
+**Business Owner:**
+* I am one of the owners of the business and want to see the company succeed. I want to clearly display information about upcoming classes in an attractive and informative way, and I want visitors to be able to easily able to enquire and contact the company easily. 
+
+
+### Strategy plane: 
+The main goal of the website is to attract users to enquire about a class. The website is aimed at a Business to Consumer creative audience. It should include minimal content and lots of imagery.  I started the UX process by creating the User Stories above which helped me work out who the project was aimed at and what I would need to include in the website to satisfy the users. 
+
+### Scope plane:
+The key features of the website were developed based on user needs. Users should be able to do the following on the website:
+
+* Find out information about upcoming classes, including dates, times, content and price
+* Enquire about an upcoming class
+* Learn about the benefits of macramé 
+* View the work of other students that have already taken a class
+* Learn how to submit completed class work to feature on the website’s gallery
+* Contact the company with a question
+* Visit social media channels
+* Learn more about the company 
+
+### Structure plane:
+
+At this point I began to think about the information architecture and the different interactions that could take place across the site. I grouped the features into four main pages: ‘Home’, ‘Classes’, ‘Gallery’ and ‘Contact’ and thought about the navigation through the website and how the user could intuitively navigate across the pages. Logically I knew I wanted to make it easy for users to go from the homepage to the classes page. Therefore I started to order the content with this in mind.  I wanted the pages to have some consistency, so thought about the homepage banner image, and how the following pages would also start with a header image. However I wanted to make sure that there was space for some ‘content hinting’ underneath the starting images, I didn’t want the image to cover the full screen (across all devices). 
+Once a form was completed, I knew I wanted to provide some kind of message to the user that this had been submitted. As I haven’t yet learned JavaScript I started to look into Bootstrap ‘modal’ messages and how this could work. 
+
+I wanted to make sure the nav bar was always easy to view in order to help users navigate through the site, therefore I thought about a creating a fixed nav, and also the ‘Burger icon’ which would enable viewers to easily move around the pages at all times when on a smaller device. 
+
+### Skeleton plane:
+I was at this stage ready to put together wireframes. I used Figma for these, creating wireframes for each page on desktop, tablet and mobile. 
+
+I aimed to make sure the main content areas were expressed in similar ways, to create consistency. I also wanted the CTA buttons to stand out and have a consistent design. 
+
+I decided that the user would be presented with simple choices on each page – namely: homepage – view classes, view gallery, on the Classes page – enquire, on the gallery page – email, on the contact page – submit contact form. 
+
+Because there will be quite a lot of imagery on the pages, I want to make sure that there was plenty of space on each page to avoid the pages feeling cluttered, leaving the user overwhelmed. 
+
+Whilst doing the wireframes, I considered whether to include the ‘image gallery’ on the homepage. I knew I wanted the user to firstly consider visiting the upcoming classes, and didn’t want to distract from this. However I thought about how the image gallery could actually persuade the user to view the upcoming classes, so although this is secondary to the classes, it was important. 
+
+<Insert wireframes>
+
+Should I put menu nav info here?
+
+### Surface plane: 
+
+I next moved on the design work. 
+
+**Colours:** Macrame is currently popular in fashion and interiors, therefore I knew I wanted the website to feel modern rather than having an ‘arts and crafts’ feel. I decided to use cool greys and light shades of pinks as the predominant colours with white and black accents in order to achieve this. 
+
+**Fonts:** I used Google Fonts to select the fonts for my project. I wanted to find two fonts that worked well together – one for the logo and headings, and another for the body text. Overall I wanted the design to look modern, whilst also related to the craft of macramé. For the logo and headings, I decided to use XXXX as I thought the cursive nature of this font could be related to macramé cord. I then used XXX which I thought complimented XXX.
+
+**Images:** I had a lot of my own images from my own macramé projects so I decided to use these for the website, however I did use a stock image for the ‘Gallery’ pager header image. I took this from: 
+
+**Layout:** I decided to use different background colours to signal to the user different areas of content. With the header and footer having the light pink colour on each page, I decided to use grey and white background colours to separate out the content. I decided to keep this consistent with each page. I thought the white and light grey helped to keep a feeling of space on each page too, allowing the images and text to stand out. I decided to give the CTA buttons a darker grey shade to help them stand out. 
+
+
+## Features
+The project consists of four different pages, all of which can be accessed through the menu bar. 
+
+**Consistent features across all pages:**
+
+-	The menu at the top of the page and the footer are consistent across all pages
+-	There is a header fixed image with overlaying title text on all pages.
+-	The buttons used across the site are all the same colour and style.
+
+**Home:** 
+
+* Feature - the fixed banner image with introductory text introduces the user giving an overview of what the website is about.
+* Feature ‘Benefits of learning macrame’ – this feature is to promote the positive reasons to learn macramé to new users, and to reaffirm the benefits to returning users. 
+* Feature ‘Upcoming Classes’ – three image cards with a description underneath displaying a selection of upcoming classes, with a button to click through to view ‘All classes’. This feature is to inform new and returning users about some of the projects available, creating interest in viewing more information about the classes. 
+* Feature ‘Image Gallery’ – three images displaying work by past students. This feature is there to convince new users that the company is credible and trustworthy by showing real outcomes from real-life clients. The images are followed by a button which takes users to the Gallery page where they can see even more real-life examples. 
+* Feature ‘scroll to top’ button – this feature enables the user to quickly move back to the top of the page, rather than having to scroll back up, improving user experience. 
+
+**Classes:**
+
+* Feature ‘ intro text’ – simple text for both new and returning users, introduces the user to the page whilst also providing some overview information applicable to all classes - materials needed, a bit about the teacher, class size. It includes information about a discount for returning students. Presenting this information straight away means users won’t start conjuring up these questions themselves and can concentrate on the class information below. Within this section is an enquiry button which users can click on to move straight down to the enquiry form at the bottom of the page. I decided to add this feature at the top rather than adding an enquiry button to each class as I thought this would be too cluttered. This way, users viewing the different classes are never far away from being able to make an enquiry, either whilst closer to the top of the page or closer to the bottom of the page. 
+* Classes feature – this is for new and returning users - there are 4 classes advertised with an image and text describing what the project is, price, when, how long it will take and suitability levels. 
+* Feature ‘Enquire Today’ – this form enables new and returning students to enquire about an upcoming class. Users can select the class they would like to enquire about within the form. The labels for the form are positioned above the input fields, so that the label doesn’t disappear when the user begins to submit some information.  
+When the user completes the form, there is a modal that pops up with a ‘Thank you message’. 
+* There is ‘scroll to top’ button on this page so that the user can easily move back up to the top of the page if they wish, which is especially useful on smaller screens. 
+
+
+**Gallery:**
+* Intro feature – the short introductory text section explaining that the images are completed projects by Fray + Anchor students is for new users. There is an e-mail link which returning user can click on if they wish to submit an image of their own work to be featured on the website’s gallery. 
+* Image gallery feature - Each image is displayed on an image card, with a short description underneath explaining who did the work and where they are from. This feature is for new users as the image gallery provides visual evidence of the outcomes of the macramé classes, and it is also for returning users who may gain a sense of pride seeing their own work displayed on the website. 
+
+**Contact:**
+ 
+* Intro feature – this is a text section encouraging new and old students, general enquiries and specific enquiries about possible projects by completing the form below. 
+* Feature contact form –The labels for the form are positioned above the input fields, so that the label doesn’t disappear when the user begins to submit some information.  When the user completes the form, there is a modal that pops up with a ‘Thank you message’. 
+
+*Note - There is no ‘scroll to top’ button on this page as it is much shorter than the other pages.*
+
+### Features to consider implementing in the future:
+
+-	It might be good if there could be a Fray + Anchor community created through Instragram with a hashtag for students to use. Instead of e-mailing in an image of the completed work, students could tag Fray + Anchor using the hashtag on Instagram which Fray + Anchor could then re-post. Then on the website, the section on the Gallery page with images could display the Instagram feed instead of the image gallery. 
+-	It would be great if testimonials could also be added to the website – possibly on the Gallery page 
+-	A short video showing some basic knots could be useful to the user. 
+-	An online booking or payment system for the classes would be useful
+-	The site could benefit from images of people enjoying making macramé – at the moment there are no faces and so it lacks emotion.  This would be particularly relevant for the ‘Benefits of learning macrame’ section on the homepage.
+-	It might be reassuring for the user to learn more about the teacher – possibly a feature with an image of the teacher and a short description about their background would be beneficial on the ‘Upcoming Classes’ page. 
+-	It would be good if there was an option to sign up to a newsletter, which would help create a larger user database for future marketing. 
+-	Finally, one issue I had with the forms, was that when I added the modal thank you message, the user could still submit the form even if the required fields hadn’t been completed. I decided to remove the ‘required’ button to avoid frustration for the user, but this would inevitably provide frustration for the business owners, therefore this is something that would need to be changed.
+
+
+## Technologies Used
+
+**Languages, libraries, frameworks, editors and version control**
+* HTML5
+    *The language used to create the form and add content to the website.
+* CSS3
+    *The language used to style the HTML5 elements 
+* JavaScript
+    *I used this language several times to improve the user experience, for example
+* Bootstrap framework
+    *In order to have a ‘mobile first approach’ for my website, I used Bootstrap's grid container system 
+* Gitpod
+    *I used Gitpod's development environment to write the code for the website
+* Git Version Control
+    *I used Git for Version Control to record changes and updates to my files
+* GitHub
+    *I used GitHub’s repository hosting service to host my deployed website as well as track previous versions of my code 
+
+**Other tools used:**
+
+* Figma
+    *I used Figma to create wireframes for my project for desktop, mobile and iPad. My mentor Seun Owonikoko Figma to me. 
+* XXX
+    * This was the source for one of the images in my project, please see the Media section below for more details on this. 
+* Google Fonts
+    *I used the following fonts for my website: 
+
+*Note: I also found Stackoverflow and W3Schools helpful resources throughout the project.
+
+## Testing:
+
+### Testing User Stories:
+NEED TO DO
+
+### Validating the code:
+
+**HTML** I validated the HTML with the W3 Validation Service.
+
+**CSS** I validated the CSS with the W3 CSS Validation Service for CSS Level 3.
+
+### Testing on different browsers:
+I tested the website on the following browsers:
+Chrome
+Safari
+Mozilla Firefox
+
+### Testing responsiveness:
+
+I manually tested the website by using Google Developer Tools to check each individual page and the website as a whole worked on different devices and different screen sizes. 
+
+PEER CODE REVIEW?
+
+### Issues found…
+NEED TO DO
+
+## Deployment
+This project was developed in GitPod and deployed to the hosting platform GitHub Pages.
+
+I took the following steps to deploy the Fray + Anchor through to GitHub Pages:
+-	Loaded GitHub in Chrome web browser and signed in.
+-	Clicked on ‘My Repositories’
+-	Navigated to 
+-	Selected ‘settings’
+-	Scrolled to the GitHub Pages area of the page
+-	Selected ‘Master Branch’ from the ‘Source’ dropdown menu
+-	Confirmed my selection
+-	Fray+Anchor is now live on GitHub Pages. 
+
+## Credits
+
+**Content**
+The content for this website is fictional and written by myself. The images are almost all my own, except for one which was taken from xxxx and is referenced below. 
+
+**Media**
+The images for this website were taken by myself, except for the following image:
+
+**Image Gallery page:**
+Hero Image
+
+**Acknowledgements:**
+Thanks to my mentor Seun Owonikoko for her suggestions and time. 
+Thanks also to my family for taking the time to look over the website and their feedback. 
+
+
+
+
 
 ## Gitpod Reminders
 
@@ -10,30 +227,5 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
 
 `python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
