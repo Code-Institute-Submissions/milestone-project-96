@@ -12,30 +12,31 @@
 <body class="d-flex flex-column">
 <div id="page-content">
 
-<!--Header section: includes navbar with logo. Navbar template from Bootstrap 4-->
-<nav class="navbar menu-bar navbar-expand-lg navbar-light fixed-top">
-    <a class="navbar-brand" href="index.html">Fray + Anchor</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-<!--Collapsible navbar content-->
-        <div class="collapse navbar-collapse" id="navbarNav">
+<!--Header section. Navbar template taken from Bootstrap 4-->
+      <header>
+        <nav class="navbar menu-bar navbar-expand-lg navbar-light fixed-top">
+          <a class="navbar-brand" href="index.html">Fray + Anchor</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-2">
-                <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item mr-3">
+              <li class="nav-item active mr-3">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item mr-3">
                 <a class="nav-link" href="classes.html">Classes</a>
-                </li>
-                <li class="nav-item mr-3">
+              </li>
+              <li class="nav-item mr-3">
                 <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item active mr-3">
-                <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-                </li>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
-        </div>
-</nav>
+          </div>
+        </nav>
+      </header>
 
  <!--Hero image section:-->
 <section class="container-fluid contact-header-image">
@@ -45,7 +46,7 @@
         </div>
     </div>
 </section>
-<section class="container-fluid contact-intro">
+<section class="container-fluid page-intro-style">
     <div class="row">
         <div class="col">
             <h2 class="section-heading text-center">We'd love to hear from you</h2>
@@ -121,11 +122,9 @@
         </div>
     </div>
 </footer>
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <!--Code for Burger Icon taken from Eventyret_mentor on Code Institute Slack Community-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
