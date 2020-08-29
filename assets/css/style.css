@@ -158,9 +158,13 @@ footer span {
 
 /*-------------------------------------------------------- Button styles */
 
-/*--.gallery-btn {
+.btn-secondary {
+    color: #fff;
+}
+
+.gallery-btn {
     padding-bottom: 30px;
-}*/
+}
 
 /*-------------------------------------------------------- Navbar */
 
@@ -224,6 +228,7 @@ color: black;
 }
 /*-------------------------------------------------------- HOME Hero Image*/
 /*Used https://stackoverflow.com/questions/47606246/center-positioning-text-in-hero-div to help with hero image and hero text code and also header images and text on all other pages */
+
 #hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/heroimage.jpg");
     width: 100%;
@@ -335,20 +340,20 @@ hr {
 /*-------------------------------------------------------- GALLERY Header Image */
 
 .gallery-header-image {
- background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.25)), url("../images/galleryheaderimage.jpg");
- width: 100%;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- height: 50vh;
- position:relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.25)), url("../images/galleryheaderimage.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    position:relative;
  }
 
-.text-center a{
+.gallery-intro a{
     color: darkgrey;
 }
 
-.text-center a:hover{
+.gallery a:hover{
     color:black;
 }
 
