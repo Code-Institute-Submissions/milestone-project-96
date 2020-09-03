@@ -186,6 +186,7 @@ When the user completes the form, there is a modal that pops up with a ‘Thank 
 * Returning user - *I am a returning user, and want to submit an image of my work to be displayed on the Fray + Anchor image gallery. I also want to see if there are any discounts if I take another class.* - This user can visit the Gallery page, and easily find an email link which enables them to easily send an email with an image attachment to Fray + Anchor. If the user decides to look at taking another class, they can see straight away in the intro text on the Classes page, that there is a discount for returning students.
 
 * Business owner - *I want to see an attractive, informative website which enables users to easily enquire or contact the company* The owner would see that there is a consistent design across the website, with lots of imagery making the site attractive to a creative audience. Information about upcoming classes is clearly displayed, and customers can easily enquire or make contact with the company on the Classes page or on the Contact page. 
+
 ### Validating the code:
 
 **HTML** I validated the HTML with the [W3C Markup Validation Service](https://validator.w3.org/)
