@@ -7,7 +7,6 @@ body {
   height: 100%;
 }
 
-
 /*-------------------------------------------------------- Background colors */
 
 .menu-bar {
@@ -19,10 +18,6 @@ body {
 }
 
 .grey-section {
-    background-color: #f2f0f1;
-}
-
-#upcoming-classes-intro {
     background-color: #f2f0f1;
 }
 
@@ -56,6 +51,7 @@ body {
     padding-left: 10px;
 }
 
+/*--- Media query to make design responsive on smaller screens */
 @media screen and (max-width: 540px) {
     .navbar-brand {
         font-size: 25px;
@@ -70,7 +66,7 @@ body {
 
 footer p {
     font-family: "Open Sans", sans-serif;
-    color: dark-grey;
+    color: darkgrey;
     font-size: 14px;
 }
 
@@ -85,6 +81,7 @@ footer span {
     color: white;
 }
 
+/*--- Media query to make design responsive on smaller screens */
 @media screen and (max-width: 540px) {
     #hero-text h1 {
         font-size: 30px;
@@ -97,6 +94,7 @@ footer span {
     font-size: 25px;
 }
 
+/*--- Media query to make design responsive on smaller screens */
 @media screen and (max-width: 540px) {
     #hero-text p {
         font-size: 20px;
@@ -121,7 +119,7 @@ footer span {
     color: black;
 }
 
-
+/*--- Media query to make design responsive on smaller screens */
 @media screen and (max-width: 540px) {
     .section-heading-classes {
    font-size: 25px;
@@ -132,6 +130,7 @@ footer span {
     color: white;
 }
 
+/*--- Media query to make design responsive on smaller screens */
 @media screen and (max-width: 540px) {
     .header-text h1 {
         font-size: 30px;
@@ -146,13 +145,11 @@ footer span {
 
 .class-info h3 {
     font-family:"Delius Swash Caps", sans-serif;
-    }
 }
 
 .class-info h4 {
     font-family: "Open Sans", sans-serif;
     color: slategrey;
-    text-transform: bold;
     font-size: 10px;
 }
 
@@ -184,7 +181,7 @@ footer span {
 }
 
 #sticky-footer {
-    flex-shrink: none;
+    flex-shrink: 0;
     background-color: #FECCC2;
     color: dimgrey;
     padding-top: 20px;
@@ -192,33 +189,10 @@ footer span {
     padding-bottom: 20px;
 }
 
-/*--Code taken from Boostrap to make sticky
-.footer > .container {
-    padding-top: 40px 15px;
-
-
-    min-height: 120px;
-    margin: 0; }*/
-
-
-/*--footer {
-  background-color: #FECCC2;
-  color: dimgrey;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  padding-top: 15px;
-  padding-left: 15px;
-}*/
-
 .social-icons i{
     padding: 10px;
 }
 
-#sticky-footer p{
-
-}
 #sticky-footer a{
     color: dimgrey;
 }
@@ -226,6 +200,7 @@ footer span {
 #sticky-footer a:hover{
 color: black;
 }
+
 /*-------------------------------------------------------- HOME Hero Image*/
 /*Used https://stackoverflow.com/questions/47606246/center-positioning-text-in-hero-div to help with hero image and hero text code and also header images and text on all other pages */
 
@@ -252,7 +227,6 @@ color: black;
     padding-left: 10px;
     padding-right: 10px;
 }
-
 
 /*-------------------------------------------------------- HOME Upcoming online classes preview on homepage */
 
@@ -315,7 +289,7 @@ margin-bottom: 40px;
 hr {
   border-top: 3px solid #FECCC2;
   width: 30%;
-  margin: 0, auto;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -330,7 +304,7 @@ hr {
     padding: 15px;
 }
 
-/*--------------Media query for form on smaller screens */
+/*--- Media query to make design responsive on smaller screens */
 @media screen and (max-width: 540px) {
     .form-style {
         width: 300px;
@@ -381,6 +355,7 @@ div.desc {
 * {
   box-sizing: border-box;
 }
+
 /*----Code to make the gallery responsive also taken from w3schools */
 .responsive {
   padding: 0 6px;
