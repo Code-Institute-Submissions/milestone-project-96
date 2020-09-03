@@ -8,7 +8,7 @@ Fray + Anchor is a fictional company which provides online macrame classes. The 
 
 This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute, and the main requirements were to make a responsive and static website with a minimum of 3 pages using HTML5 and CSS3. 
  
-Click ![here] (https://chloelewisdev.github.io/milestone-project-1/index.html) to view the website live. 
+Click [here](https://chloelewisdev.github.io/milestone-project-1/index.html) to view the website live. 
 
 ## **User Experience**
 This section provides insight into the UX process, focusing on who the Fray + Anchor website is for, the main aims of the project and how the website can help users meet their needs.  
@@ -59,6 +59,7 @@ Once a form was completed, I knew I wanted to provide some kind of message to th
 I wanted to make sure the nav bar was always easy to view in order to help users navigate through the site, therefore I thought about a creating a fixed nav, and also I researched the ‘Burger icon’ which would enable viewers to easily move around the pages at all times when on a smaller device. 
 
 ### Skeleton plane:
+
 I was at this stage ready to put together wireframes. I used Figma for these, creating wireframes for each page on desktop, tablet and mobile. 
 
 I aimed to make sure the main content areas were expressed in similar ways, to create consistency. I also knew I wanted the CTA buttons to stand out and have a consistent design. 
@@ -147,28 +148,28 @@ When the user completes the form, there is a modal that pops up with a ‘Thank 
 * CSS3
     * The language used to style the HTML5 elements 
 * JavaScript
-    * I used this language several times to improve the user experience, for example
+    * I used this language for the Scroll to Top button and the Hamburger Icon on smaller screens
 * [Bootstrap framework](https://getbootstrap.com/) 
-    * In order to have a ‘mobile first approach’ for my website, I used Bootstrap's grid container system 
-* Gitpod
+    * I used Bootstrap's grid system in order to have a 'mobile'-first' approach
+* [Gitpod](https://www.gitpod.io/)
     * I used Gitpod's development environment to write the code for the website
-* Git Version Control
+* [Git Version Control](https://git-scm.com/)
     * I used Git for Version Control to record changes and updates to my files
-* GitHub
+* [GitHub](https://github.com/)
     * I used GitHub’s repository hosting service to host my deployed website as well as track previous versions of my code 
 
 **Other tools used:**
 
 * [Figma](https://www.figma.com/)
-    *I used Figma to create wireframes for my project for desktop, mobile and iPad. My mentor Seun Owonikoko Figma to me. 
-* XXX
+    *I used Figma to create wireframes for my project for desktop, mobile and iPad. 
+* [Unsplash](https://unsplash.com/)
     * This was the source for one of the images in my project, please see the Media section below for more details on this. 
 * [Google Fonts](https://fonts.google.com/)
-    *I used the following fonts for my website: 
+    *I used the following Google fonts for the project: Delius Swash Caps and Open Sans 
 * [Favicon](https://favicon.io/)
-    * I used this website to create the favicon for the website and followed the steps on this website to learn how to add it to my code. 
+    * I used this website to create the favicon for the website and followed the steps on the Favicon website to learn how to add it to my code. 
 
-*Note: I also found [Stack Overflow](https://stackoverflow.com/) and [W3C Schools](https://www.w3schools.com/) helpful resources throughout the project, as well as the Code Institute Slack Community. 
+*Note: I also found [Stack Overflow](https://stackoverflow.com/), [W3C Schools](https://www.w3schools.com/) and [Start Bootstrap](https://startbootstrap.com/) helpful resources throughout the project, as well as the Code Institute Slack Community. 
 
 ## Testing:
 
@@ -216,13 +217,15 @@ I took the following steps to deploy the Fray + Anchor through to GitHub Pages:
 **Content**
 The content for this website is fictional and written by myself. The images are almost all my own, except for one which was taken from Unsplash and is referenced below. 
 
+Thank you to my mentor Seun Owonikoko for suggesting that I look at the following README.md https://github.com/mkthewlis/Milestone-Project-2/blob/master/README.md for inspiration, and I also found the Code Institute Slack Community's Peer Code Review channel really useful to look through when considering the content for this project. 
+
 **Media**
 The images for this website were taken by myself, except for the following image:
 
 * The header image on the Gallery page, which was taken by user Elena Putina on Unsplash and can be viewed on the following link: [Unsplash](https://unsplash.com/photos/2JOxWQoxGtU)
 
 **Acknowledgements:**
-Thanks to my mentor Seun Owonikoko for her suggestions and time. 
+Thanks to my mentor Seun Owonikoko for her suggestions and time.  
 Thanks also to my family for taking the time to look over the website and their feedback. 
 Thanks to the Code Institute Slack Community. 
 
