@@ -35,23 +35,10 @@ body {
     padding: 50px 80px;
 }
 
-@media screen and (max-width: 540px) {
-  .white-section {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-}
 .grey-section {
     padding: 50px 80px;
 }
 
-
-@media screen and (max-width: 540px) {
-  .grey-section {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-}
 /*-------------------------------------------------------- Font & font styles */
 
 .navbar-brand {
@@ -60,14 +47,6 @@ body {
     font-family: "Delius Swash Caps", sans-serif;
     letter-spacing: 1px;
     padding-left: 10px;
-}
-
-/*--- Media query to make design responsive on smaller screens */
-@media screen and (max-width: 540px) {
-    .navbar-brand {
-        font-size: 25px;
-        padding-left: 5px;
-    }
 }
 
 .nav-link {
@@ -92,24 +71,10 @@ footer span {
     color: white;
 }
 
-/*--- Media query to make design responsive on smaller screens */
-@media screen and (max-width: 540px) {
-    #hero-text h1 {
-        font-size: 32px;
-    }
-}
-
 #hero-text p {
     font-family: "Open", sans-serif;
     color: white;
     font-size: 25px;
-}
-
-/*--- Media query to make design responsive on smaller screens */
-@media screen and (max-width: 540px) {
-    #hero-text p {
-        font-size: 20px;
-    }
 }
 
 .section-heading{
@@ -131,22 +96,9 @@ footer span {
     color: black;
 }
 
-/*--- Media query to make design responsive on smaller screens */
-@media screen and (max-width: 540px) {
-    .section-heading-classes {
-   font-size: 25px;
-    }
-}
 .header-text h1 {
     font-family: "Delius Swash Caps", sans-serif;
     color: white;
-}
-
-/*--- Media query to make design responsive on smaller screens */
-@media screen and (max-width: 540px) {
-    .header-text h1 {
-        font-size: 32px;
-    }
 }
 
 .header-text p {
@@ -161,7 +113,7 @@ footer span {
 
 .class-info h4 {
     font-family: "Open Sans", sans-serif;
-    color: slategrey;
+    color: dimgrey;
     font-size: 20px;
 }
 
@@ -187,10 +139,7 @@ footer span {
 }
 
 /*-------------------------------------------------------- Footer */
-
-#page-content {
-  flex: 1 0 auto;
-}
+/*--Code for sticky footer from https://startbootstrap.com/snippets/sticky-footer-flexbox*/
 
 #sticky-footer {
     flex-shrink: 0;
@@ -201,8 +150,8 @@ footer span {
     padding-bottom: 20px;
 }
 
-.social-icons i{
-    padding: 10px;
+#page-content {
+  flex: 1 0 auto;
 }
 
 #sticky-footer a{
@@ -211,6 +160,14 @@ footer span {
 
 #sticky-footer a:hover{
 color: black;
+}
+
+.social-icons {
+    padding-bottom: 20px;
+}
+
+.social-icons i{
+    padding: 10px;
 }
 
 /*-------------------------------------------------------- HOME Hero Image*/
@@ -255,12 +212,12 @@ color: black;
 /*-------------------------------------------------------- HOME Gallery preview on homepage */
 
 .gallery-item {
-width: 286px;
-padding-right: 15px;
-padding-top: 10px;
-padding-bottom: 10px;
- margin-top: 30px;
-margin-bottom: 40px;
+    width: 286px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 /*-------------------------------------------------------- CLASSES Header image */
@@ -323,13 +280,6 @@ hr {
     padding: 15px;
 }
 
-/*--- Media query to make design responsive on smaller screens */
-@media screen and (max-width: 540px) {
-    .form-style {
-        width: 300px;
-    }
-}
-
 /*-------------------------------------------------------- GALLERY Header Image */
 
 .gallery-header-image {
@@ -375,7 +325,8 @@ div.desc {
   box-sizing: border-box;
 }
 
-/*----Code to make the gallery responsive also taken from w3schools */
+/*----Code to make the gallery responsive also from w3schools */
+
 .responsive {
   padding: 0 6px;
   float: left;
@@ -444,4 +395,55 @@ div.desc {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+/*-------------------------------------------------------- Media queries */
+
+@media screen and (max-width: 576px) {
+  .white-section {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+  .grey-section {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+  .navbar-brand {
+        font-size: 25px;
+        padding-left: 5px;
+    }
+
+   #hero-text h1 {
+        font-size: 32px;
+    }
+
+   #hero-text p {
+        font-size: 20px;
+    }
+
+   .section-heading {
+       font-size: 24px;
+    }
+
+   .section-heading-classes {
+        font-size: 25px;
+    }
+
+    .benefit-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header-text h1 {
+        font-size: 32px;
+    }
+
+    .class-info h3 {
+        font-size: 25px;
+    }
+    .form-style {
+        width: 300px;
+    }
 }
