@@ -204,11 +204,11 @@ I manually tested the website on the following browsers:
 I manually tested the website by using Google Developer Tools to check each individual page and the website as a whole worked on different devices and different screen sizes. 
 
 ### Issues found…
-* I added an image carousel for the Gallery page initially, but I struggled to get this to be responsive on all screens and it created a bad user experience, because if the user didn't swipe across to view the next image, many could be easily missed.  I thought users are probably more comfortable scrolling down (on a mobile) through images, like on a social media feed for example, therefore I decided to create an image gallery with rows instead so that on smaller screens the user could just scroll down, and on medium to larger screens I could display a lot of the images on the screen even before the user scrolled, requiring very little action from the user with instant impact. 
+* I added an image carousel for the Gallery page initially, but I struggled to get this to be responsive on all screens and it created a bad user experience, because if the user didn't swipe across horizontally to view the next image, many could be easily missed.  I thought users are probably more comfortable scrolling down (on a mobile) through images, like on a social media feed for example, therefore I decided to create an image gallery with rows instead so that on smaller screens the user could just scroll down, and on medium to larger screens I could display a lot of the images on the screen even before the user scrolled, requiring very little action from the user with instant impact. 
 
-* One issue I had with the forms, was that when I added the modal thank you message, the user could still submit the form even if the required fields hadn’t been completed. I decided to remove the ‘required’ button to avoid frustration for the user, but then thought this would be a real problem for the business owner, and so added the 'required' fields back in. Therefore this is something that would need to be changed with some JavaScript.
+* One issue I had with the forms, was that when I added the modal thank you message, the user could still submit the form even if the required fields hadn’t been completed. I decided to remove 'required' from any input fields, to avoid frustration for the user. However, this would probably be frustrating for the business owner, therefore this is something that would need to be changed with some JavaScript as a priority.
 
-* Favicon
+* I used https://favicon.io/ to generate a favicon for the project. I initially added the favicon to 'images' however this didn't work. I looked at the Code Institute's Slack Community to see if anyone else had had this problem, and saw that it needed to be moved into the main directory. Once I did this, the favicon worked correctly. 
 
 ## Deployment
 This project was developed in GitPod and deployed to the hosting platform GitHub Pages.
@@ -240,9 +240,11 @@ The images for this website were taken by myself, except for the following image
 **Acknowledgements:**
 Thanks to my mentor Seun Owonikoko for her useful suggestions and time.  
 
+Thanks to the Code Institute Slack Community.
+
 Thanks also to my family for taking the time to look over the website and their feedback. 
 
-Thanks to the Code Institute Slack Community. 
+ 
 
 
 
