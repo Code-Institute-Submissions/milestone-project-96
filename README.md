@@ -169,7 +169,7 @@ When the user completes the form, there is a modal that pops up with a ‘Thank 
 * [Google Fonts](https://fonts.google.com/)
     * I used the following Google fonts for the project: Delius Swash Caps and Open Sans 
 * [Favicon](https://favicon.io/)
-    * I used this website to create the favicon for the website and followed the steps on the Favicon website to learn how to add it to my code. 
+    * I used this website to create the favicon for the website 
 
 *Note: I also found [Stack Overflow](https://stackoverflow.com/), [W3C Schools](https://www.w3schools.com/) and [Start Bootstrap](https://startbootstrap.com/) helpful resources throughout the project, as well as the Code Institute Slack Community. 
 
@@ -191,7 +191,7 @@ When the user completes the form, there is a modal that pops up with a ‘Thank 
 
 **HTML** I validated the HTML with the [W3C Markup Validation Service](https://validator.w3.org/)
 
-**CSS** I validated the CSS with the [W3 CSS Validation Service](http://www.css-validator.org/)
+**CSS** I validated the CSS with the [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ### Testing on different browsers:
 I manually tested the website on the following browsers:
@@ -245,7 +245,3 @@ Thanks to the Code Institute Slack Community.
 Thanks also to my family for taking the time to look over the website and their feedback. 
 
  
-
-
-
-`python3 -m http.server`
