@@ -199,47 +199,64 @@ I manually tested the website on the following browsers:
 * Safari
 * Mozilla Firefox
 
-### Testing responsiveness:
+### Testing responsiveness on multiple devices and screen sizes:
 
-I manually tested the website by using Google Developer Tools to check each individual page and the website as a whole worked on different devices and different screen sizes. 
+I manually tested the website by using Google Developer Tools to check each individual page and the website as a whole worked on different devices and different screen sizes, including: Moto G4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5 SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro. I also manually tested the site on my MacBook Air, iPad, and iPhone 11. 
 
 ### Issues found…
-* I added an image carousel for the Gallery page initially, but I struggled to get this to be responsive on all screens and it created a bad user experience, because if the user didn't swipe across horizontally to view the next image, many could be easily missed.  I thought users are probably more comfortable scrolling down (on a mobile) through images, like on a social media feed for example, therefore I decided to create an image gallery with rows instead so that on smaller screens the user could just scroll down, and on medium to larger screens I could display a lot of the images on the screen even before the user scrolled, requiring very little action from the user with instant impact. 
+* The Gallery page had four images per row for small screen sizes and upwards initially. By looking at the Google Developer Tools I could see this looked very overcrowded on iPad. Therefore I updated this to have 3 images per row for small screens, and 4 images per row for medium screens and upwards. I fixed this by hiding the fourth image on each row for small screens.  
 
-* One issue I had with the forms, was that when I added the modal thank you message, the user could still submit the form even if the required fields hadn’t been completed. I decided to remove 'required' from any input fields, to avoid frustration for the user. However, this would probably be frustrating for the business owner, therefore this is something that would need to be changed with some JavaScript as a priority.
+* I initially used Bootstrap modal messages for the enquiry form and the contact form. However, this meant the user could submit the form, without completing the required fields. The form would require JavaScript to enable a message to appear correctly upon submission only when the required fields have been completed, therefore I decided to remove the modal messages. This is something that could be developed in the next stage of the website. 
 
-* I used https://favicon.io/ to generate a favicon for the project. I initially added the favicon to 'images' however this didn't work. I looked at the Code Institute's Slack Community to see if anyone else had had this problem, and saw that it needed to be moved into the main directory. Once I did this, the favicon worked correctly. 
+* I used https://favicon.io/ to generate a favicon for the project. I initially added the favicon to the 'images' folder however this didn't work. I looked at the Code Institute's Slack Community to see if anyone else had had this problem, and saw that the Favicon folder needed to be moved into the main directory. Once I did this, the favicon worked correctly. 
 
-* Initially for both the forms on the Classes page and the Contact page, the button type was 'submit', however I realised that the modal message wasn't always appearing with this. I fixed it by changing the button type to 'button', and the modal message now shows up as it should. 
-
+* On smaller screens, there was a strip of white space appearing on the right of the screen. Upon inspection, I realised that there was a margin left and right of "-15px" in the footer, once I cleared these by setting the row class to zero the problem was resolved. 
 ## Deployment
-This project was developed in GitPod and deployed to the hosting platform GitHub Pages.
+This project was developed in GitPod and deployed to the hosting platform [GitHub Pages](https://chloelewisdev.github.io/milestone-project-1/index.html).
 
 I took the following steps to deploy the Fray + Anchor through to GitHub Pages:
 -	Loaded GitHub in Chrome web browser and signed in
--	Clicked on ‘My Repositories’
--	Navigated to 'milestone-project-1'
--	Selected ‘Settings’
+-	Clicked on [My Repositories](https://github.com/chloelewisdev?tab=repositories)
+-	Navigated to [milestone-project-1](https://github.com/chloelewisdev/milestone-project-1)
+-	Selected [Settings](https://github.com/chloelewisdev/milestone-project-1/settings)
 -	Scrolled down to the GitHub Pages area of the page
 -	Selected ‘Master Branch’ from the ‘Source’ dropdown menu
 -	Confirmed my selection
--	Fray+Anchor is now live on GitHub Pages  
+-	Fray+Anchor is now live on [GitHub Pages](https://chloelewisdev.github.io/milestone-project-1/index.html)  
+
+To deploy your own version of the website:
+
+- Have git installed
+- Visit the repository
+- Click 'Clone or download' and copy the code for http
+- Open your chosen IDE (Cloud9, VS Code, etc.)
+- Open a terminal in your root directory
+- Type 'git clone ' followed by the code taken from github repository 
+- When this completes you have your own version of the website. Feel free to make any changes to it. 
+
+The website can be run by opening one of the HTML files within a web browser.
+
+Visit the link provided. Your website with any made changes will appear.
+
+Saved changes to the website will appear here after refreshing the page.
+
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete. It may take a moment for changes to appear on the hosted website.
 
 ## Credits
 
-**Content**
+### Content
 The content for this website is fictional and written by myself. The images are almost all my own, except for one which was taken from Unsplash and is referenced below. 
 
 I found the Code Institute Slack Community's Peer Code Review channel really useful to look through when considering the content for this project. 
 
 Thank you to my mentor Seun Owonikoko for suggesting that I look at the following README.md file by fellow Code Institute student Miranda https://github.com/mkthewlis/Milestone-Project-2/blob/master/README.md when doing my own README.md file.
 
-**Media**
+### Media
 The images for this website were taken by myself, except for the following image:
 
 * The header image on the Gallery page, which was taken by user Elena Putina on Unsplash and can be viewed on the following link: [Unsplash](https://unsplash.com/photos/2JOxWQoxGtU)
 
-**Acknowledgements:**
+## Acknowledgements:
 Thanks to my mentor Seun Owonikoko for her useful suggestions and time.  
 
 Thanks to the Code Institute Slack Community.
