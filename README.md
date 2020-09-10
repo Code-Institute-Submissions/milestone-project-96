@@ -210,6 +210,8 @@ I manually tested the website by using Google Developer Tools to check each indi
 
 * I used https://favicon.io/ to generate a favicon for the project. I initially added the favicon to 'images' however this didn't work. I looked at the Code Institute's Slack Community to see if anyone else had had this problem, and saw that it needed to be moved into the main directory. Once I did this, the favicon worked correctly. 
 
+* Initially for both the forms on the Classes page and the Contact page, the button type was 'submit', however I realised that the modal message wasn't always appearing with this. I fixed it by changing the button type to 'button', and the modal message now shows up as it should. 
+
 ## Deployment
 This project was developed in GitPod and deployed to the hosting platform GitHub Pages.
 
