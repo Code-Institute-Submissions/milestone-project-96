@@ -10,6 +10,38 @@ This project is the first of four Milestone Projects that make up the Full Stack
  
 Click [here](https://chloelewisdev.github.io/milestone-project-1/index.html) to view the website live. 
 
+## Table of Contents:
+
+- [User Experience](#User-Experience)
+        - [Project goals](#Project-goals)
+        - [User Stories](#User-Stories)
+        - [Strategy Plane](#Strategy-Plane)
+        - [Scope Plane](#Scope-Plane)
+        - [Structure Plane](#Structure-Plane)
+        - [Skeleton Plane](#Skeleton-Plane)
+        - [Surface Plane](#Surface-Plane)
+
+- [Features](#Features)
+        - [Features to consider implementing in the future](#Features-to-consider-implementing-in-the-future)
+
+- [Technologies Used](#Technologies-Used)
+
+- [Testing](#Testing)
+        - [Testing User Stories](#Testing-User-Stories)
+        - [Validating The Code](#Validating-the-code)
+        - [Testing on different browsers](#Testing-on-different-browsers)
+        - [Testing responsiveness on multiple devices and screen sizes](#Testing-responsiveness-on-multiple-devices-and-screen-sizes)
+        - [Issues found](#Issues-found)
+
+- [Deployment](#Deployment)
+
+- [Credits](#Credits)
+        - [Content](#Content)
+        - [Media](#Media)
+
+- [Acknowledgements](Acknowledgements)
+
+
 ## **User Experience**
 This section provides insight into the UX process, focusing on who the Fray + Anchor website is for, the main aims of the project and how the website can help users meet their needs.  
 
@@ -203,7 +235,7 @@ I manually tested the website on the following browsers:
 
 I manually tested the website by using Google Developer Tools to check each individual page and the website as a whole worked on different devices and different screen sizes, including: Moto G4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5 SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro. I also manually tested the site on my MacBook Air, iPad, and iPhone 11. 
 
-### Issues found…
+### Issues found
 * The Gallery page had four images per row for small screen sizes and upwards initially. By looking at the Google Developer Tools I could see this looked very overcrowded on iPad. Therefore I updated this to have 3 images per row for small screens, and 4 images per row for medium screens and upwards. I fixed this by hiding the fourth image on each row for small screens.  
 
 * I initially used Bootstrap modal messages for the enquiry form and the contact form. However, this meant the user could submit the form, without completing the required fields. The form would require JavaScript to enable a message to appear correctly upon submission only when the required fields have been completed, therefore I decided to remove the modal messages. This is something that could be developed in the next stage of the website. 
@@ -211,6 +243,7 @@ I manually tested the website by using Google Developer Tools to check each indi
 * I used https://favicon.io/ to generate a favicon for the project. I initially added the favicon to the 'images' folder however this didn't work. I looked at the Code Institute's Slack Community to see if anyone else had had this problem, and saw that the Favicon folder needed to be moved into the main directory. Once I did this, the favicon worked correctly. 
 
 * On smaller screens, there was a strip of white space appearing on the right of the screen. Upon inspection, I realised that there was a margin left and right of "-15px" in the footer, once I cleared these by setting the row class to zero the problem was resolved. 
+
 ## Deployment
 This project was developed in GitPod and deployed to the hosting platform [GitHub Pages](https://chloelewisdev.github.io/milestone-project-1/index.html).
 
