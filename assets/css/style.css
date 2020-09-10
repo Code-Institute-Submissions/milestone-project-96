@@ -143,7 +143,7 @@ footer span {
 
 #sticky-footer {
     flex-shrink: 0;
-    background-color: #FBD8D1;
+    background-color: #fbdfda;
     color: dimgrey;
     padding-top: 20px;
     padding-left: 20px;
@@ -168,6 +168,11 @@ color: black;
 
 .social-icons i{
     padding: 10px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 /*-------------------------------------------------------- HOME Hero Image*/
@@ -213,7 +218,6 @@ color: black;
 
 .gallery-item {
     width: 286px;
-    padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 30px;
@@ -223,7 +227,7 @@ color: black;
 /*-------------------------------------------------------- CLASSES Header image */
 
 .classes-header-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.25)), url("../images/classesheaderimage.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/classesheaderimage.jpg");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -280,6 +284,9 @@ hr {
     padding: 15px;
 }
 
+textarea {
+    resize: none;
+}
 /*-------------------------------------------------------- GALLERY Header Image */
 
 .gallery-header-image {
@@ -376,6 +383,12 @@ div.desc {
 .contact-form {
     padding: 20px 10px;
 }
+
+textarea {
+    resize: none;
+}
+
+/*-------------------------------------------------------- Scroll to top button */
 
 #myBtn {
   display: none;
