@@ -12,35 +12,34 @@ Click [here](https://chloelewisdev.github.io/milestone-project-1/index.html) to 
 
 ## Table of Contents:
 
-* [User Experience](#User-Experience)
-        * [Project goals](#Project-goals)
-        * [User Stories](#User-Stories)
-        * [Strategy Plane](#Strategy-Plane)
-        * [Scope Plane](#Scope-Plane)
-        * [Structure Plane](#Structure-Plane)
-        * [Skeleton Plane](#Skeleton-Plane)
-        * [Surface Plane](#Surface-Plane)
+*[User Experience](#User-Experience)
+        *[Project goals](#Project-goals)
+        *[User Stories](#User-Stories)
+        *[Strategy Plane](#Strategy-Plane)
+        *[Scope Plane](#Scope-Plane)
+        *[Structure Plane](#Structure-Plane)
+        *[Skeleton Plane](#Skeleton-Plane)
+        *[Surface Plane](#Surface-Plane)
 
-* [Features](#Features)
-        * [Features to consider implementing in the future](#Features-to-consider-implementing-in-the-future)
+*[Features](#Features)
+        *[Features to consider implementing in the future](#Features-to-consider-implementing-in-the-future)
 
-* [Technologies Used](#Technologies-Used)
+*[Technologies Used](#Technologies-Used)
 
 * [Testing](#Testing)
-        * [Testing User Stories](#Testing-User-Stories)
-        * [Validating The Code](#Validating-the-code)
-        * [Testing on different browsers](#Testing-on-different-browsers)
-        * [Testing responsiveness on multiple devices and screen sizes](#Testing-responsiveness-on-multiple-devices-and-screen-sizes)
-        * [Issues found](#Issues-found)
+        *[Testing User Stories](#Testing-User-Stories)
+        *[Validating The Code](#Validating-the-code)
+        *[Testing on different browsers](#Testing-on-different-browsers)
+        *[Testing responsiveness on multiple devices and screen sizes](#Testing-responsiveness-on-multiple-devices-and-screen-sizes)
+        *[Issues found](#Issues-found)
 
-* [Deployment](#Deployment)
+*[Deployment](#Deployment)
 
-* [Credits](#Credits)
-        * [Content](#Content)
-        * [Media](#Media)
+*[Credits](#Credits)
+        *[Content](#Content)
+        *[Media](#Media)
 
-* [Acknowledgements](Acknowledgements)
-
+*[Acknowledgements](Acknowledgements)
 
 ## **User Experience**
 This section provides insight into the UX process, focusing on who the Fray + Anchor website is for, the main aims of the project and how the website can help users meet their needs.  
