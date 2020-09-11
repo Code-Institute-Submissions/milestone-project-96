@@ -217,7 +217,7 @@ color: black;
 /*-------------------------------------------------------- HOME Gallery preview on homepage */
 
 .gallery-item {
-    width: 286px;
+    width: 17rem;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 30px;
@@ -456,7 +456,14 @@ textarea {
     .class-info h3 {
         font-size: 25px;
     }
+
     .form-style {
         width: 300px;
     }
 }
+
+
+@media screen and (max-width: 540px) {
+    .form-style {
+        width: 260px;
+    }
