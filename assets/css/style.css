@@ -462,8 +462,8 @@ textarea {
     }
 }
 
-
 @media screen and (max-width: 540px) {
     .form-style {
         width: 260px;
     }
+}
