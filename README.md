@@ -67,7 +67,7 @@ This section provides insight into the UX process, focusing on who the Fray + An
 
 
 ### Strategy plane: 
-The main goal of the website is to attract users to enquire about an upcoming online macrame class. The website is aimed at a Business to Consumer creative audience. It should include minimal content and lots of imagery.  I started the UX process by creating the User Stories above which helped me work out who the project was aimed at and what I would need to include in the website to satisfy the needs of the users. 
+The main goal of the website is to attract users to enquire about an upcoming online macrame class. The website is aimed at a Business to Consumer creative audience. It should include lots of imagery.  I started the UX process by creating the User Stories above which helped me work out who the project was aimed at and what I would need to include in the website to satisfy the needs of the users. 
 
 ### Scope plane:
 The key features of the website were developed based on user needs. Users should be able to do the following on the website:
@@ -85,9 +85,7 @@ The key features of the website were developed based on user needs. Users should
 
 At this point I began to think about the information architecture and the different interactions that could take place across the site. I grouped the features into four main pages: ‘Home’, ‘Classes’, ‘Gallery’ and ‘Contact’ and thought about the navigation through the website and how the user could move across the pages. I knew I wanted to make it easy for users to go from the homepage to the Classes page, as the main aim of the project is to gain enquiries about upcoming classes. Therefore I started to order the content with this in mind.  
 
-I wanted the pages to have some consistency, so thought about the homepage banner image, and how the following pages would also start with a header image, which would be shorter than the homepage banner image but following the same pattern. I decided that there should be some space under these starting images for some ‘content hinting’ underneath the starting images - I didn’t want the image to cover the full screen (across all devices). 
-
-Once a form was completed, I knew I wanted to provide some kind of message to the user that this had been submitted. As I haven’t yet learned JavaScript I started to look into Bootstrap ‘modal’ messages after my mentor recommended this to me, and I looked into how this could work.  
+I wanted the pages to have some consistency, so thought about the homepage hero image, and how the following pages would also start with a header image, which would be shorter than the homepage hero image but following the same pattern. I decided that there should be some space under these starting images for some ‘content hinting’ underneath the starting images - I didn’t want the image to cover the full screen (across all devices). 
 
 I wanted to make sure the nav bar was always easy to view in order to help users navigate through the site, therefore I thought about creating a fixed nav, and also I researched the ‘Hamburger icon’ which would enable viewers to easily move around the pages at all times when on a smaller device. 
 
@@ -116,13 +114,13 @@ Please also find screenshots below:
 
 I next moved on to the design work. 
 
-**Colours:** Macrame is currently popular in fashion and interiors, therefore I knew I wanted the website to feel modern rather than having an ‘arts and crafts’ feel. I decided to use cool greys (#f2f0f1) and a light shade of pink (#FECCC2) as the predominant colours with white, black and dark grey accents in order to achieve this. 
+**Colours:** Macrame is currently popular in fashion and interiors, therefore I knew I wanted the website to feel modern rather than having an ‘arts and crafts’ feel. I decided to use cool greys (#f2f0f1) and a light shade of pink (#FECCC2) as the predominant colours with white, black and dark grey accents in order to achieve this. For the pink shades, I used colour #FECCC2 for the fixed header, and then a slightly lighter colour of #fbdfda for the footer, so that the header was more prominent, as this holds more importance for the user. 
 
 **Fonts:** I used Google Fonts to select the fonts for my project. I wanted to find two fonts that worked well together – one for the logo and headings, and another for the body text. Overall I wanted the design to look modern, whilst also related to the craft of macrame. For the logo and headings, I decided to use Delius Swash Caps as I thought the cursive nature of this font could be related to macrame cord. I then used Open Sans for the body text which I thought complimented Delius Swash Caps.
 
 **Images:** I had a lot of my own images from my own macrame projects so I decided to use these for the website, however I did use a stock image for the ‘Gallery’ pager header image. I took this from [Unsplash](https://www.unsplash.com) and the information for this image can be found below in the Credits section.
 
-**Layout:** I decided to use different background colours to signal to the user different areas of content. I wanted the light pink colour to be prominent and so used this on the fixed nav and footer on all pages. I decided to use grey and white background colours to separate out the content on each page. I decided to keep this consistent with each page. I thought the white and light grey helped to keep a feeling of space on each page too, allowing the images and text to stand out. I decided to give all buttons a dark grey shade with white text on all pages to help them stand out. The layout uses a lot of boxes, with straight edges used across the site.
+**Layout:** I decided to use different background colours to signal to the user different areas of content. I wanted the darker pink colour to be prominent and so used this on the fixed nav and then the lighter pink on the footer on all pages. I decided to use grey and white background colours to separate out the content on each page. I decided to keep this consistent with each page. I thought the white and light grey helped to keep a feeling of space on each page too, allowing the images and text to stand out. I decided to give all buttons a dark grey shade with white text on all pages to help them stand out. The layout uses a lot of boxes, with straight edges used across the site.
 
 
 ## Features
@@ -146,18 +144,17 @@ The project consists of four different pages, all of which can be accessed throu
 
 * ‘Intro text’ feature – simple text for both new and returning users, introduces the user to the page whilst also providing some overview information applicable to all classes - materials needed, a bit about the teacher, class size. It includes information about a discount for returning students. Presenting this information straight away means users won’t be thinking about these questions whilst viewing the classes, and can concentrate on the class information. Within this section is an enquiry button which users can click on to jump straight down to the enquiry form at the bottom of the page. I decided to add this feature at the top rather than adding an enquiry button to each class as I thought this would be too cluttered. This way, users viewing the different classes are never far away from being able to make an enquiry, either whilst closer to the top of the page or closer to the bottom of the page. 
 * Classes feature – this is for new and returning users - there are 4 classes advertised with an image and text describing what the project is, price, when, how long it will take and suitability levels. 
-* Feature ‘Enquire Today’ – this form enables new and returning students to easily enquire about an upcoming class. Users can select the class they would like to enquire about from a dropdown within the form. The labels for the form are positioned above the input fields, so that the label text doesn’t disappear when the user begins to submit some information, creating a better user experience.  
-When the user completes the form, there is a modal that pops up with a ‘Thank you message’. 
+* Feature ‘Enquire Today’ – this form enables new and returning students to easily enquire about an upcoming class. Users can select the class they would like to enquire about from a dropdown within the form. The labels for the form are positioned above the input fields, so that the label text doesn’t disappear when the user begins to submit some information, creating a better user experience.   
 * Feature ‘Scroll to top’ button - this feature enables the user to quickly move back to the top of the page, rather than having to scroll back up improving the user experience especially on smaller screens. 
 
 **Gallery:**
 * 'Intro text' feature – this short introductory text section explains that the images show work completed by by Fray + Anchor students. This text is for new and returning users - for new users it helps reaffirm the credibiily of the classes, and for returning students there is an e-mail link which can be clicked on if they wish to submit an image of their own work to be featured on the website’s gallery. 
-* 'Image gallery' feature - There are 12 images, 4 on 3 rows, and each image is displayed on an image card, with a short description underneath explaining who did the work and where they are from. This feature is for new users as the image gallery provides visual evidence of the outcomes of the macrame classes, and it is also for returning users who may gain a sense of pride seeing their own work displayed on the website. 
+* 'Image gallery' feature - There are 12 images, 4 on 3 rows on desktop, on smaller screens 9 images, 3 on 3 rows, and on mobile there are 9 images which appear one after the other, and each image is displayed on an image card, with a short description underneath explaining who did the work and where they are from. This feature is for new users as the image gallery provides visual evidence of the outcomes of the macrame classes, and it is also for returning users who may gain a sense of pride seeing their own work displayed on the website. 
 
 **Contact:**
  
 * 'Intro text' feature – this is a text section encouraging new and old students to get in touch with any questions, general enquiries and specific enquiries about possible projects by completing the form further down the page. 
-* Feature 'Contact form' – The labels for the form are positioned above the input fields, so that the label doesn’t disappear when the user begins to submit some information.  When the user completes the form, there is a modal that pops up with a ‘Thank you message’. 
+* Feature 'Contact form' – The labels for the form are positioned above the input fields, so that the label doesn’t disappear when the user begins to submit some information.   
 
 *Note - There is no ‘scroll to top’ button on this page as it is much shorter than the other pages.*
 
@@ -208,7 +205,7 @@ When the user completes the form, there is a modal that pops up with a ‘Thank 
 
 ### Testing User Stories:
 
-* New user - *new to macrame and needs to be convinced about the benefits and whether to invest time and money into the craft* - on the homepage, the user is presented with the benefits of learning macrame. On this page the user can also see some real-life outcomes of taking a class (images of work by other students), as well as a selection of upcoming classes. On the Classes page, the user can view the price, time and suitability levels for each class, and can easily submit an enquiry about a class on this page. If this user needs further convincing about taking a class, they can continue navigating down the menu items to the Gallery page, where they can view more real-life examples of work by students who have taken a Fray + Anchor class, and they can also make contact bby sending a message on the 'Contact' page, or by visiting the information in the footer. 
+* New user - *new to macrame and needs to be convinced about the benefits and whether to invest time and money into the craft* - on the homepage, the user is presented with the benefits of learning macrame. On this page the user can also see some real-life outcomes of taking a class (images of work by other students), as well as a selection of upcoming classes. On the Classes page, the user can view the price, time and suitability levels for each class, and can easily submit an enquiry about a class on this page. If this user needs further convincing about taking a class, they can continue navigating down the menu items to the Gallery page, where they can view more real-life examples of work by students who have taken a Fray + Anchor class, and they can also make contact by sending a message on the 'Contact' page, or by visiting the information in the footer. 
 
 * New user - *new user who has learned some macrame previously but now wants to take on a more difficult project and wants a teacher to guide them through this online* - this user can easily navigate to the Classes page from the homepage or from the menu at the top. On the Classes page, the user can view the different levels of suitability for each class, so they can view 'Intermediate' or 'Advanced' classes. They can also view more information about the teacher in the intro section of the Class page, and understand the support provided in each class. This user can easily enquire by submitting the form on this page, or they can also make contact by submitting the form on the Contact page or clicking on the e-mail link in the footer. 
 
@@ -235,9 +232,9 @@ I manually tested the website on the following browsers:
 I manually tested the website by using Google Developer Tools to check each individual page and the website as a whole worked on different devices and different screen sizes, including: Moto G4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5 SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro. I also manually tested the site on my MacBook Air, iPad, and iPhone 11. 
 
 ### Issues found
-* The Gallery page had four images per row for small screen sizes and upwards initially. By looking at the Google Developer Tools I could see this looked very overcrowded on iPad. Therefore I updated this to have 3 images per row for small screens, and 4 images per row for medium screens and upwards. I fixed this by hiding the fourth image on each row for small screens.  
+* The Gallery page had four images per row for small screen sizes and upwards initially. By looking at the Google Developer Tools I could see this looked very overcrowded on iPad. Therefore I updated this to have 3 images per row for small screens, and 4 images per row for medium screens and upwards. I fixed this by hiding the fourth image on each row for smaller screens.  
 
-* I initially used Bootstrap modal messages for the enquiry form and the contact form. However, this meant the user could submit the form, without completing the required fields. The form would require JavaScript to enable a message to appear correctly upon submission only when the required fields have been completed, therefore I decided to remove the modal messages. This is something that could be developed in the next stage of the website. 
+* I initially used Bootstrap modal messages for the enquiry form and the contact form. However, this meant the user could submit the form, without completing the required fields. The form would require JavaScript to enable a message to appear correctly upon submission only when the required fields have been completed, therefore I decided to remove the modal messages. This is something that could be developed in the next stage of the website if more knowledge of Javascript had been acquired.
 
 * I used https://favicon.io/ to generate a favicon for the project. I initially added the favicon to the 'images' folder however this didn't work. I looked at the Code Institute's Slack Community to see if anyone else had had this problem, and saw that the Favicon folder needed to be moved into the main directory. Once I did this, the favicon worked correctly. 
 
@@ -288,7 +285,7 @@ The images for this website were taken by myself, except for the following image
 
 * The header image on the Gallery page, which was taken by user Elena Putina on Unsplash and can be viewed on the following link: [Unsplash](https://unsplash.com/photos/2JOxWQoxGtU)
 
-## Acknowledgements:
+## Acknowledgements
 Thanks to my mentor Seun Owonikoko for her useful suggestions and time.  
 
 Thanks to the Code Institute Slack Community.
